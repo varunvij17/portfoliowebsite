@@ -1,0 +1,22 @@
+{% extends 'basic.html' %}
+{% block title %} ABOUT {% endblock title %}
+{% block body %}
+{% load static %}
+
+<div class="row">
+    <div class="col-lg-12" data-aos="fade-right">
+        <marquee behavior="slide" direction="down">
+            <img src="{% static 'assets/img/cert.jpg' %}" width="1200" height="1600" alt="Flying Bat">
+        </marquee>
+      {% comment %} <img src="{% static 'assets/img/cert.jpg' %}" class="img-fluid" alt=""> {% endcomment %}
+    </div>
+
+
+
+{% endblock body %}
+
+
+
+<marquee behavior="slide" direction="left">
+    <img src="/pix/samples/bats_013.gif" width="125" height="82" alt="Flying Bat">
+</marquee>
